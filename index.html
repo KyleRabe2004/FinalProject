@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styll.css">
+</head>
+<body>
+
+    <h2>Visa Free Tracker</h2>
+
+    <div id="info-container">
+        <div class="info-item">
+            <label for="info-box">Country Name:</label>
+            <div id="info-box">Click on a country</div>
+        </div>
+        <div class="info-item">
+            <label for="visa-box"># of Destinations:</label>
+            <div id="visa-box">Click on a country</div>
+        </div>
+        <div class="info-item">
+            <label for="hdi-box">HDI Score:</label>
+            <div id="hdi-box">Click on a country</div>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+
+    <!-- Turf.js (for geospatial analysis, if needed) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/code-y.js"></script>
+
+</body>
+</html>

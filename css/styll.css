@@ -1,0 +1,70 @@
+/* Map container */
+#map {
+    height: 90vh;
+}
+
+/* Info container */
+#info-container {
+    position: absolute;
+    top: 10px;
+    left: 58%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+/* Individual info items */
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Box styling */
+#info-box, #visa-box, #hdi-box {
+    padding: 5px 5px;
+    border-radius: 5px;
+    background: #f8f9fa;
+    min-width: 100px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+
+/* Legend styling */
+.legend {
+    background: white;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.legend h4 {
+    margin: 0 0 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.legend div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.legend span {
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    border: 1px solid #000;
+}

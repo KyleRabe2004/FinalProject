@@ -14,7 +14,7 @@ legend.onAdd = function (map) {
     var div = L.DomUtil.create("div", "legend");
     div.innerHTML += "<h4>Visa Legend</h4>";
     div.innerHTML += '<div><span style="background: #0000FF;"></span> Freedom of Movement</div>';
-    div.innerHTML += '<div><span style="background: #00FF00;"></span> Visa Free or VOA</div>';
+    div.innerHTML += '<div><span style="background: #49973f;"></span> Visa Free or VOA</div>';
     div.innerHTML += '<div><span style="background: #FFFF00;"></span> eVisa</div>';
     div.innerHTML += '<div><span style="background: #FF0000;"></span> Visa Required</div>';
     div.innerHTML += '<div><span style="background: #000000;"></span> Travel Banned</div>';

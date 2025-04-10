@@ -388,12 +388,12 @@ const highlightRules = {
         "yellow": [
             "Azerbaijan", "Benin", "Burkina Faso", "Cameroon", "Cuba", "Equatorial Guinea",
             "Gabon", "Guinea", "India", "Mauritania", "Pakistan", "Papua New Guinea",
-            "Syria", "Togo", "Uganda", "Chile", "Sao Tome & Principe", "Vietnam", 
+            "Syria", "Togo", "Uganda", "Chile", "Sao Tome & Principe", "Vietnam", "Brazil", 
         ],
         "green": [
             "Albania", "Andorra", "Angola", "Antigua & Barbuda", "Argentina", "Armenia", "United Kingdom", "The Bahamas", 
             "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belize", "Bolivia", "Bosnia & Herzegovina", 
-            "Botswana", "Brazil", "Brunei", "Burundi", "Cabo Verde", "Cambodia", "Canada", "China", 
+            "Botswana", "Brunei", "Burundi", "Cabo Verde", "Cambodia", "Canada", "China", 
             "Colombia", "Comoros", "Costa Rica", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", 
             "Egypt", "El Salvador", "Swaziland", "Ethiopia", "Fiji", "The Gambia", "Georgia", "Grenada", 
             "Guatemala", "Guinea-Bissau", "Haiti", "Indonesia", "Iraq", "Israel", "Honduras", "Iran",
@@ -1329,12 +1329,12 @@ const highlightRules = {
         "yellow": [
             "Azerbaijan", "Benin", "Burkina Faso", "Cameroon", "Cuba", "Equatorial Guinea",
             "Gabon", "Guinea", "India", "Mauritania", "Pakistan", "Papua New Guinea",
-            "Syria", "Togo", "Uganda", "Vietnam", 
+            "Syria", "Togo", "Uganda", "Vietnam", "Brazil", 
         ],
         "green": [
             "Albania", "Andorra", "Angola", "Antigua & Barbuda", "Argentina", "Armenia", "Australia", "The Bahamas", 
             "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belize", "Bolivia", "Bosnia & Herzegovina", 
-            "Botswana", "Brazil", "Brunei", "Burundi", "Cabo Verde", "Cambodia", "United States",
+            "Botswana", "Brunei", "Burundi", "Cabo Verde", "Cambodia", "United States",
             "Colombia", "Comoros", "Costa Rica", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", 
             "Egypt", "El Salvador", "Swaziland", "Ethiopia", "Fiji", "The Gambia", "Georgia", "Grenada", 
             "Guatemala", "Guinea-Bissau", "Haiti", "Honduras", "Indonesia", "Iraq", "Israel", 
@@ -8245,12 +8245,12 @@ const highlightRules = {
         "yellow": [
             "Azerbaijan", "Benin", "Burkina Faso", "Cameroon", "Cuba", "Equatorial Guinea",
             "Gabon", "Guinea", "India", "Mauritania", "Pakistan", "Papua New Guinea",
-            "Syria", "Togo", "Uganda", "Vietnam", "Uzbekistan"
+            "Syria", "Togo", "Uganda", "Vietnam", "Uzbekistan", "Brazil", 
         ],
         "green": [
             "Albania", "Andorra", "Angola", "Antigua & Barbuda", "Argentina", "Armenia", "Australia", "The Bahamas", 
             "Bahrain", "Bangladesh", "Barbados", "Belize", "Bolivia", "Bosnia & Herzegovina", 
-            "Botswana", "Brazil", "Brunei", "Burundi", "Cabo Verde", "Cambodia", "Canada",
+            "Botswana", "Brunei", "Burundi", "Cabo Verde", "Cambodia", "Canada",
             "Colombia", "Comoros", "Costa Rica", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", 
             "Egypt", "El Salvador", "Swaziland", "Ethiopia", "Fiji", "The Gambia", "Georgia", "Grenada", 
             "Guatemala", "Guinea-Bissau", "Haiti", "Honduras", "Indonesia", "Iraq", "Israel", 
